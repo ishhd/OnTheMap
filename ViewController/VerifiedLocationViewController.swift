@@ -47,10 +47,7 @@ class VerifiedLocationViewController : UIViewController{
             let studentLocationRequest = PostLocation(uniqueKey: userData.key, firstName: firstName, lastName: lastName, mapString: self.location, mediaURL: self.url, latitude: Float(self.coordinate.latitude), longitude: Float(self.coordinate.longitude))
             
             
-            if (self.updatePin!) {
-                self.updateExistedSpot(postLocationData: studentLocationRequest) ?? self.postSpot(postLocationData: studentLocationRequest)
-            
-            }
+            self.updatePin ? self.updateExistedSpot(postLocationData: studentLocationRequest): self.postSpot(postLocationData: studentLocationRequest)
             
             
         }

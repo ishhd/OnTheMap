@@ -11,7 +11,6 @@ import UIKit
 
 class ListViewController : UIViewController {
     
-    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
@@ -23,7 +22,8 @@ class ListViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
         self.tableView.refreshControl = refreshControl
         refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
         self.refresh()
@@ -72,20 +72,6 @@ class ListViewController : UIViewController {
             self.refreshControl.endRefreshing()
         })}
     
-    func getStudentData() {
-        UdacityAPI.getStudentLocation(singleStudent: false, completion:{ (data, error) in
-            
-            DispatchQueue.main.async {
-                guard let data = data else {
-                    print(error?.localizedDescription ?? "")
-                    return
-                }
-                SLocationData.studentsData = data
-                self.studentArray.removeAll()
-                self.studentArray.append(contentsOf: SLocationData.studentsData.sorted(by: {$0.updatedAt > $1.updatedAt}))
-                self.tableView.reloadData()
-            }})}
-
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
@@ -102,6 +88,8 @@ class ListViewController : UIViewController {
     
 }
 extension ListViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return studentArray.count

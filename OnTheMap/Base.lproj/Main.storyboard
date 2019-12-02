@@ -260,13 +260,13 @@
                             <barButtonItem systemItem="add" id="SyZ-o6-T4d">
                                 <connections>
                                     <action selector="addLocation:" destination="U0a-iJ-bNM" id="iir-Ju-2X7"/>
-                                    <segue destination="aM0-nT-ffP" kind="show" identifier="addSpot" id="fRa-cv-0ak"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="Map" destination="M0F-Tj-7pc" id="RvI-pA-eZM"/>
+                        <segue destination="aM0-nT-ffP" kind="show" identifier="addSpot" id="uAt-lP-NK0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FXf-UP-jzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -356,7 +356,6 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="fyS-05-kZp">
                             <connections>
                                 <action selector="addLocation:" destination="jaq-x1-LkT" id="d1U-H8-lXs"/>
-                                <segue destination="aM0-nT-ffP" kind="show" identifier="addSpot" id="t41-44-Kqe"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -364,6 +363,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="edI-zR-SBN" id="a2c-GO-gLP"/>
                         <outlet property="tableView" destination="n0t-Wf-Rd9" id="Mah-aC-KfI"/>
+                        <segue destination="aM0-nT-ffP" kind="show" identifier="addSpot" id="wtY-e7-kJJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2Z-OG-2D9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -379,6 +379,6 @@
         <image name="logo-u.png" width="62" height="62"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="t41-44-Kqe"/>
+        <segue reference="uAt-lP-NK0"/>
     </inferredMetricsTieBreakers>
 </document>
