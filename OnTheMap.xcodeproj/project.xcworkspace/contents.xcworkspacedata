@@ -2,6 +2,112 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:OnTheMap.xcodeproj">
+      location = "group:/Users/ebtesam/Documents/shahads projects/OnTheMap/ViewController/VerifiedLocationViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_addpin.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_addpin@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_addpin@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_back-arrow.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_back-arrow@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_back-arrow@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_listview-deselected.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_listview-deselected@2x.png">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_listview-deselected@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_listview-selected.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_listview-selected@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_listview-selected@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_mapview-deselected.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_mapview-deselected@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_mapview-deselected@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_mapview-selected.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_mapview-selected@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_mapview-selected@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_pin.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_pin@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_pin@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_refresh.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_refresh@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_refresh@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_world.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_world@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/icon_world@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/loading.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/loading@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/loading@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/logo-u.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/logo-u@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../on-the-map-assets-new/logo-u@3x.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

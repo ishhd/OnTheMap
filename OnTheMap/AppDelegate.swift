@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  OnTheMap
 //
-//  Created by Ebtesam on 17/03/1441 AH.
+//  Created by Shahad on 17/03/1441 AH.
 //  Copyright © 1441 Udacity. All rights reserved.
 //
 
